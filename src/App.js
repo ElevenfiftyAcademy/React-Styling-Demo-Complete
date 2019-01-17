@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
+import Sitebar from './Components/Navbar';
+import BoxHero from './Components/BoxHero';
+import TextContent from './Components/TextContent';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h2>Hello React!</h2>
+        <Sitebar />
+        <BoxHero />
+        <TextContent />
+        <Footer />
       </div>
     );
   }
